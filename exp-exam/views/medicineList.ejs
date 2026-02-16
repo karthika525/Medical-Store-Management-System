@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Medicine List</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+<h1>Your Medicines</h1>
+<div style="align-items: right;float: right;">
+<a href="/medicines">Your Medicines</a>
+<a href="/medicines/add">Add Medicine</a> 
+<a href="/logout" onclick="return confirmLogout(event)">Logout</a>
+<form method="GET" action="/medicines" style="background-color:gray;">
+    <input type="text" name="search" placeholder="Search Medicine" value="<%= search %>" required>
+    <button type="submit">Search</button>
+  </form>
+</div>
+   
+<% if (error) { %>
+  <div class="errStyle">
+    <%= error %>
+  </div>
+<% } %>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Stock</th>
+      <th>Added Time</th>
+      <th>Actions</th>
+    </tr>
+    <% medicines.forEach(med => { %>
+      <tr>
+        <td><%= med.name %></td>
+        <td><%= med.stock %></td>
+        <td><%= med.addedAt.toLocaleString() %></td>
+        <td>
+          <a href="/medicines/edit/<%= med._id %>">Edit</a>
+          <a href="/medicines/delete/<%= med._id %>" onclick="return confirmDelete('<%= med.name %>');">Delete</a>
+        </td>
+      </tr>
+    <% }) %>
+  </table>
+  
+  <div class="pagination" style="text-align: center;">
+    <% for (let i = 1; i <= totalPages; i++) { %>
+      <a href="?page=<%= i %>&search=<%= search %>" class="<%= currentPage === i ? 'active' : '' %>"><%= i %></a>
+    <% } %>
+</div>
+
+
+<script>
+
+function confirmDelete(name) {
+  return confirm(`Are you sure you want to delete "${name}"?`);
+}
+function confirmLogout() {
+    return confirm("Are you sure you want to logout?");
+  }
+</script>
+</body>
+</html>

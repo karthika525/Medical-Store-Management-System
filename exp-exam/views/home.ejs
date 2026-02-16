@@ -1,0 +1,51 @@
+<!-- <link rel="stylesheet" href="/stylesheets/style.css">
+<section class="home">
+  <div class="home-container">
+    <h1>Medical Store Management System</h1>
+    <% if (!user) { %>
+      <div>
+        <a href="/signup">Sign Up</a>
+        <a href="/login">Login</a>
+      </div>
+    <% } else { %>
+      <div>
+        <a href="/medicines">Your Medicines</a>
+        <a href="/logout"onclick="return confirmLogout(event)" >Logout</a>
+      </div>
+    <% } %>
+  </div>
+</section>
+<script>
+function confirmLogout(event) {
+   event.preventDefault(); 
+ 
+}
+</script>
+ -->
+
+<link rel="stylesheet" href="/stylesheets/style.css">
+
+<section class="home">
+  <div class="home-container">
+    <h1>Medical Store Management System</h1>
+
+    <% if (!user) { %>
+      <div>
+        <a href="/signup">Sign Up</a>
+        <a href="/login">Login</a>
+      </div>
+    <% } else { %>
+      <div>
+        <a href="/medicines">Your Medicines</a>
+        <a href="/logout" onclick="return confirmLogout()">Logout</a>
+      </div>
+    <% } %>
+
+  </div>
+</section>
+
+<script>
+  function confirmLogout() {
+    return confirm("Are you sure you want to logout?");
+  }
+</script>

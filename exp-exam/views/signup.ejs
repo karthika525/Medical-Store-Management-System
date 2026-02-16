@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signup</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+  <h1>Signup</h1>
+ <% if (message) { %>
+    <div style="color: red;">
+      <ul>
+          <li><%= message %></li>
+      </ul>
+    </div>
+  <% } %>
+  <% if (error) { %>
+    <div style="color: red;">
+      <ul>
+        <% Object.values(error).forEach(err => { %>
+          <li><%= err.message %></li>
+        <% }); %>
+      </ul>
+    </div>
+  <% } %>
+  <form action="/signup" method="POST">
+    <input type="text" name="username" placeholder="Username" required autofocus>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="password" name="password" placeholder="Password" required>
+   <input type="password"  name="confirmPassword" placeholder="Confirm Password"><br>
+    <button type="submit">Signup</button>
+  </form>
+  <p>Already have an account? <a href="/login">Login</a></p>
+</body>
+</html>

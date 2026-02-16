@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Edit Medicine</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+  <h1>Edit Medicine</h1>
+  <form action="/medicines/edit/<%= medicine._id %>" method="POST">
+    <input type="text" name="name" value="<%= medicine.name %>" required>
+    <input type="number" name="stock" value="<%= medicine.stock %>" required>
+    <button type="submit">Update</button>
+  </form>
+  <a href="/medicines">Back</a>
+</body>
+</html>
