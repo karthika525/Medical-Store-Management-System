@@ -180,52 +180,40 @@ http://localhost:3000
 ### 🔐 Login Page
 
 ```
-<img width="730" height="483" alt="login" src="https://github.com/user-attachments/assets/b77b1220-0c85-41d5-9123-5acb077e65a4" />
-
-```
-
+<img width="730" height="483" alt="login" src="https://github.com/user-attachments/assets/9404b5ee-7b15-434e-bd82-b582eb4a8105" />
 ---
 
 ### 🔐 Signup Page
 
 ```
-<img width="689" height="538" alt="signup" src="https://github.com/user-attachments/assets/1bd39360-8d88-4234-8598-b92e433daa59" />
-
-```
+<img width="689" height="538" alt="signup" src="https://github.com/user-attachments/assets/68f93ce2-fe1d-4848-b1e8-b728f7df1bee" />
 
 ---
 
 ### 💊 Medicine List with pagination
 
 ```
-<img width="1098" height="708" alt="List_with_pagination" src="https://github.com/user-attachments/assets/bbd7aa55-1db1-4a44-ab6c-465f28e015c6" />
-
-```
+<img width="1098" height="708" alt="List_with_pagination" src="https://github.com/user-attachments/assets/f450f701-eb62-49de-80ba-2d9a1d8bdcce" />
 
 ---
 
 ### ➕ Edit Medicine Page
 
 ```
-<img width="740" height="440" alt="Edit" src="https://github.com/user-attachments/assets/a100fb6e-d196-4002-b1db-a9125776560b" />
-
-```
+<img width="740" height="440" alt="Edit" src="https://github.com/user-attachments/assets/47d1d6df-75f4-4307-b024-c1b4f2d8deab" />
 
 ---
 ### 🔐 Search 
 
 ```
-<img width="1116" height="610" alt="Search" src="https://github.com/user-attachments/assets/2751e5ee-2854-498c-80d4-6c32abf49973" />
+<img width="1116" height="610" alt="Search" src="https://github.com/user-attachments/assets/d950a9d9-7fd9-4a3a-a62a-a9fab5bc1cbb" />
 
-```
 
 ---
 ### 🔐 Logout Comfirmation
 
 ```
-<img width="1006" height="695" alt="logout" src="https://github.com/user-attachments/assets/f0fd5f13-9fc7-4775-928d-3a357c1dbb2a" />
-
-```
+<img width="1006" height="695" alt="logout" src="https://github.com/user-attachments/assets/c9b17e2a-c0f7-4961-bad6-c2633373f937" />
 
 ---
 
