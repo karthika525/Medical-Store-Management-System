@@ -187,6 +187,11 @@ http://localhost:3000
 
 ---
 
+### ➕ Medicine listing with pagination
+
+<img width="1098" height="708" alt="List_with_pagination" src="https://github.com/user-attachments/assets/f902e9c3-7fb3-4b4c-af3b-e2a0947662d6" />
+
+---
 ### ➕ Edit Medicine Page
 
 ![Edit](https://github.com/user-attachments/assets/47d1d6df-75f4-4307-b024-c1b4f2d8deab)
