@@ -173,47 +173,35 @@ http://localhost:3000
 ```
 
 ---
-
 ## 📸 Screenshots
-
 
 ### 🔐 Login Page
 
-```
-<img width="730" height="483" alt="login" src="https://github.com/user-attachments/assets/9404b5ee-7b15-434e-bd82-b582eb4a8105" />
----
-
-### 🔐 Signup Page
-
-```
-<img width="689" height="538" alt="signup" src="https://github.com/user-attachments/assets/68f93ce2-fe1d-4848-b1e8-b728f7df1bee" />
+![Login](https://github.com/user-attachments/assets/ea392851-5a93-451a-9003-2189ed0bb7d9)
 
 ---
 
-### 💊 Medicine List with pagination
+### 📝 Signup Page
 
-```
-<img width="1098" height="708" alt="List_with_pagination" src="https://github.com/user-attachments/assets/f450f701-eb62-49de-80ba-2d9a1d8bdcce" />
+![Signup](https://github.com/user-attachments/assets/68f93ce2-fe1d-4848-b1e8-b728f7df1bee)
 
 ---
 
 ### ➕ Edit Medicine Page
 
-```
-<img width="740" height="440" alt="Edit" src="https://github.com/user-attachments/assets/47d1d6df-75f4-4307-b024-c1b4f2d8deab" />
+![Edit](https://github.com/user-attachments/assets/47d1d6df-75f4-4307-b024-c1b4f2d8deab)
 
 ---
-### 🔐 Search 
 
-```
-<img width="1116" height="610" alt="Search" src="https://github.com/user-attachments/assets/d950a9d9-7fd9-4a3a-a62a-a9fab5bc1cbb" />
+### 🔎 Search
 
+![Search](https://github.com/user-attachments/assets/d950a9d9-7fd9-4a3a-a62a-a9fab5bc1cbb)
 
 ---
-### 🔐 Logout Comfirmation
 
-```
-<img width="1006" height="695" alt="logout" src="https://github.com/user-attachments/assets/c9b17e2a-c0f7-4961-bad6-c2633373f937" />
+### 🚪 Logout Confirmation
+
+![Logout](https://github.com/user-attachments/assets/c9b17e2a-c0f7-4961-bad6-c2633373f937)
 
 ---
 
